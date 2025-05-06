@@ -97,3 +97,4 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 - Selvaraju et al. (2017). **Grad-CAM: Visual Explanations from Deep Networks**
 - Isensee et al. (2021). **nnU-Net for Biomedical Image Segmentation**
 - Litjens et al. (2017). **A Survey on Deep Learning in Medical Imaging**
+- Brain Tumor Segmentation using U-Net : [GitHub Notebook](https://github.com/ovh/ai-training-examples/blob/main/notebooks/computer-vision/image-segmentation/tensorflow/brain-tumor-segmentation-unet/notebook_image_segmentation_unet.ipynb)

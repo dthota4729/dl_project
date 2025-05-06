@@ -1,5 +1,5 @@
 
-# Brain Tumor Detection and Segmentation using CNN and U-Net with Explainable AI
+# 🧠 Brain Tumor Detection and Segmentation using CNN and U-Net with Explainable AI
 
 ## Project Overview
 
@@ -7,7 +7,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 ├── model_final_script.ipynb       # Final notebook with code implementation
@@ -19,7 +19,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Key Features
+## 🧪 Key Features
 
 - **Tumor Classification** using EfficientNet (normal vs. tumor)
 - **Tumor Segmentation** using U-Net
@@ -29,16 +29,26 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Sample Workflow
+## 🖼️ Sample Workflow
 
-1. **Input:** Brain MRI Image
+1. **Input:** LGG Brain MRI Image
 2. **Classification:** EfficientNet detects presence of tumor
 3. **Segmentation:** U-Net segments the tumor region (if tumor present)
 4. **Explainability:** Grad-CAM highlights important regions
 
 ---
 
-## Results & Evaluation
+---
+## 🗃️ Dataset
+
+- **Dataset Used:** [LGG Brain MRI Dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- T1-weighted MRI slices with corresponding segmentation masks
+- Includes both **grayscale and RGB** images
+- Preprocessing steps: normalization, resizing, augmentation
+
+---
+
+## 📊 Results & Evaluation
 
 - **Classification Accuracy:** ~96%
 - **Segmentation Dice Score:** ~0.88
@@ -48,7 +58,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Technologies Used
+## 🔬 Technologies Used
 
 - **Frameworks:** PyTorch, OpenCV, Matplotlib
 - **Models:** EfficientNet, U-Net
@@ -57,7 +67,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Dataset
+## 🗃️ Dataset
 
 - **LGG Brain MRI Dataset** (T1-weighted MRI slices with segmentation masks)
 - Includes both **grayscale and RGB** images
@@ -65,7 +75,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 1. Clone the repo and open `model_final_script.ipynb`
 2. Set dataset path and run each cell sequentially
@@ -74,7 +84,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## Future Work
+## 📈 Future Work
 
 - Improve generalizability across datasets (e.g., BraTS, multi-institution data)
 - Integrate multi-modal imaging (PET + MRI)
@@ -82,7 +92,7 @@ This project aims to develop an end-to-end deep learning pipeline for **automate
 
 ---
 
-## References
+## 📚 References
 
 - Selvaraju et al. (2017). **Grad-CAM: Visual Explanations from Deep Networks**
 - Isensee et al. (2021). **nnU-Net for Biomedical Image Segmentation**
